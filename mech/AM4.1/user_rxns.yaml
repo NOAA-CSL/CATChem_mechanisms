@@ -1,0 +1,303 @@
+camp-data:
+  - name: AM4
+    type: MECHANISM
+    reactions:
+      - type: ARRHENIUS
+        MUSICA name: uo_o2 (1)
+        A: 6e-34
+        B: -2.4
+        C: 300
+        reactants:
+          O: {}
+          O2: {}
+          M: {}
+        products:
+          O3: {}
+          M: {}    
+      - type: TROE
+        k0_A: 6.9e-33
+        k0_B: -2.1
+        kinf_A: 1.1e-12
+        kinf_B: -1.3
+        Fc: 0.6
+        reactants:
+            OH: {}
+            CO: {}
+        products:
+            H: {}
+            CO2: {}
+      - type: ARRHENIUS
+        MUSICA name: uoh_acet (1)
+        A: 3.82e-11
+        C: -20000
+        reactants:
+          CH3COCH3: {}
+          OH: {}
+        products:
+          ATO2: {}
+          H2O: {}
+      - type: ARRHENIUS
+        MUSICA name: uoh_acet (2)
+        A: 1.33e-13
+        reactants:
+          CH3COCH3: {}
+          OH: {}
+        products:
+          ATO2: {}
+          H2O: {}
+      - type: TROE
+        k0_A: 7.408e-4
+        k0_B: -4.4
+        k0_C: -11000
+        kinf_A: 5.1856e14
+        kinf_B: -0.7
+        kinf_C: -11000
+        Fc: 0.6
+        reactants:
+            N2O5: {}
+        products:
+            NO2: {}
+            NO3: {}
+      - type: ARRHENIUS
+        MUSICA name: uoh_hno3 (1) (1)
+        A: 2.4e-14
+        C: 460
+        reactants:
+          HNO3: {}
+          OH: {}
+        products:
+          NO3: {}
+          H2O: {}
+      - type: TROE
+        k0_A: 6.5e-34
+        k0_C: 1335 
+        kinf_A: 2.7e-17
+        kinf_C: 2199
+        Fc: 1
+        reactants:
+            HNO3: {}
+            OH: {}
+        products:
+            NO3: {}
+            H2O: {}
+      - type: ARRHENIUS
+        MUSICA name: uho2_ho2 (1)(1)
+        A: 3.5e-13
+        C: 430
+        reactants:
+          HO2: 
+            qty: 2
+        products:
+          H2O2: {}
+          O2: {}
+      - type: ARRHENIUS
+        MUSICA name: uho2_ho2 (1)(2)
+        A: 2.1e-33
+        C: 920
+        reactants:
+          HO2: 
+            qty: 2
+          M: {}
+        products:
+          H2O2: {}
+          O2: {}
+          M: {}
+      - type: ARRHENIUS
+        MUSICA name: uho2_ho2 (1)(3)
+        A: 4.9e-34
+        C: 2630
+        reactants:
+          HO2: 
+            qty: 2
+          H2O: {}
+        products:
+          H2O2: {}
+          O2: {}
+          H2O: {}
+      - type: ARRHENIUS
+        MUSICA name: uho2_ho2 (1)(4)
+        A: 2.38e-54
+        C: 3200
+        reactants:
+          HO2: 
+            qty: 2
+          M: {}
+          H2O: {}
+        products:
+          H2O2: {}
+          O2: {}
+          M: {}
+          H2O: {}
+      - type: TROE
+        k0_A: 4.2e-4
+        k0_B: -3.4
+        k0_C: -10900
+        kinf_A: 6.09e15
+        kinf_B: -1.2
+        kinf_C: -10900
+        Fc: 0.6
+        reactants:
+            HO2NO2: {}
+        products:
+            HO2: {}
+            NO2: {}
+      - type : SURFACE
+        MUSICA name: n2o5h (1)
+        gas-phase reactant : N2O5
+        reaction probability : 0.02
+        gas-phase products :
+           HNO3 : { "yield" : 0.3 }          
+      - type : SURFACE
+        MUSICA name: nh3h (1)
+        gas-phase reactant : NH3
+        reaction probability : 0.0
+        gas-phase products :
+           NH4 : { "yield" : 1 }  
+      - type : SURFACE
+        MUSICA name: no3h (1)
+        gas-phase reactant : NO3
+        reaction probability : 0.02
+        gas-phase products :
+           HNO3 : { "yield" : 1 }  
+      - type : SURFACE
+        MUSICA name: ho2h (1)
+        gas-phase reactant : HO2
+        reaction probability : 0.2
+        gas-phase products :
+           H2O : { "yield" : 0.3 }  
+      - type : SURFACE
+        MUSICA name: no2h (1)
+        gas-phase reactant : NO2
+        reaction probability : 1e-5
+        gas-phase products :
+           HNO3 : { "yield" : 0.5 }  
+           OH: {"yield": 0.5}
+           NO: {"yield": 0.5}
+      - type : SURFACE
+        MUSICA name: so2h (1)
+        gas-phase reactant : SO2
+        reaction probability : 2e-5
+        gas-phase products :
+           SO4 : { "yield" : 1 }  
+      - type: TROE
+        k0_A: 1.72e-05
+        k0_B: -4.5
+        k0_C: -8835
+        kinf_A: 2.15e15
+        kinf_B: -2.4
+        kinf_C: -8835
+        Fc: 0.6
+        reactants:
+            Cl2O2: {}
+        products:
+            ClO:
+              yield: 2
+      - type: TROE
+        k0_A: 1.07767
+        k0_B: -5.6
+        k0_C: -14000
+        kinf_A: 1.0332299999999998e17
+        kinf_B: -1.5
+        kinf_C: -14000
+        Fc: 0.6
+        reactants:
+            PAN: {}
+        products:
+            CH3CO3: {}
+            NO2: {}
+      - type: TROE
+        k0_A: 9.999
+        k0_B: -8.9
+        k0_C: -14000
+        kinf_A: 8.5547e16
+        kinf_B: -0.2
+        kinf_C: -14000
+        Fc: 0.6
+        reactants:
+            MPAN: {}
+        products:
+            MAO3: {}
+            NO2: {}
+      - type: USER_DEFINED
+        MUSICA name: usr_DMS_OH
+        reactants:
+          DMS: {}
+          OH: {}
+        products:
+          SO2: 
+            yield: 0.75
+          CH2O: {}
+      - type: USER_DEFINED
+        MUSICA name: strat72
+        reactants:
+          HOCl: {}
+          HCl: {}
+        products:
+          H2O: {}
+          Cl2: {}
+      - type: USER_DEFINED
+        MUSICA name: strat73
+        reactants:
+          N2O5: {}
+          HCl: {}
+        products:
+          HNO3: {}
+          Cl: {}
+          NO2: {}
+      - type: USER_DEFINED
+        MUSICA name: strat74
+        reactants:
+          N2O5: {}
+          H2O: {}
+        products:
+          HNO3: 
+            yield: 2
+      - type: USER_DEFINED
+        MUSICA name: strat75
+        reactants:
+          ClONO2: {}
+          H2O: {}
+        products:
+          HOCl: {}
+          HNO3: {}
+      - type: USER_DEFINED
+        MUSICA name: strat76
+        reactants:
+          ClONO2: {}
+          HCl: {}
+        products:
+          Cl2: {}
+          HNO3: {}
+      - type: USER_DEFINED
+        MUSICA name: strat77
+        reactants:
+          HOBr: {}
+          HCl: {}
+        products:
+          BrCl: {}
+          H2O: {}
+      - type: USER_DEFINED
+        MUSICA name: strat78
+        reactants:
+          HOCl: {}
+          HBr: {}
+        products:
+          BrCl: {}
+          H2O: {}
+      - type: USER_DEFINED
+        MUSICA name: strat79
+        reactants:
+          HOBr: {}
+          HBr: {}
+        products:
+          Br:
+            yield: 2
+          HNO3: {}
+      - type: USER_DEFINED
+        MUSICA name: strat80
+        reactants:
+          BrONO2: {}
+          H2O: {}
+        products:
+          HOBr: {}
+          HNO3: {}

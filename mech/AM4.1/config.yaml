@@ -1,0 +1,4 @@
+camp-files:
+  - "species.yaml"
+  - "reactions.yaml"
+  - "user_rxns.yaml"
