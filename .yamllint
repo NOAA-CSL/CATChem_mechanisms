@@ -1,0 +1,23 @@
+extends: default
+
+rules:
+  braces:
+    level: warning
+  brackets:
+    level: warning
+  colons:
+    level: warning
+  comments: disable
+  comments-indentation: disable
+  document-start: disable
+  empty-lines: disable
+  hyphens:
+    level: warning
+  indentation:
+    level: warning
+  line-length: disable
+  truthy: disable
+  trailing-spaces:
+    level: warning
+  new-line-at-end-of-file: disable
+  key-duplicates: enable
