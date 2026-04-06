@@ -1,328 +1,216 @@
-camp-data:
   - name: M
-    type: CHEM_SPEC
-    tracer type: THIRD_BODY
+    is third body: True
   - name: N2
-    type: CHEM_SPEC
-    tracer type: CONSTANT
+    __is_gas: true
   - name: O2
-    type: CHEM_SPEC
-    tracer type: CONSTANT
+    __is_gas: true
   - name: O3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: O
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: O1D
-    type: CHEM_SPEC
-    __formula: O
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: N2O
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: N
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: 'NO'
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: NO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
     molecular weight [kg mol-1]: 0.0460055
-    diffusion coefficient [m2 s-1]: 1000
   - name: NO3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
     molecular weight [kg mol-1]: 0.0620049
-    diffusion coefficient [m2 s-1]: 1000
   - name: HNO3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: HO2NO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: N2O5
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
     molecular weight [kg mol-1]: 0.10801
-    diffusion coefficient [m2 s-1]: 1000
   - name: CH4
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3O2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3OOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH2O
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: OH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: HO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
     molecular weight [kg mol-1]: 0.0330062
-    diffusion coefficient [m2 s-1]: 1000
   - name: H2O2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: C3H6
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ISOP
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: PO2
-    type: CHEM_SPEC
-    __formula: C3H6OHO2
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3CHO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: POOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3CO3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3COOOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: PAN
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C2H6
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C2H4
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C4H10
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MPAN
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ISOPO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MVK
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MACR
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MACRO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MACROOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C2H5O2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C2H5OOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C10H16
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C3H8
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C3H7O2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C3H7OOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3COCH3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CH3OH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: C2H5OH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: GLYALD
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: HYAC
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: EO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: EO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: ISOPOOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: H2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: SO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
     molecular weight [kg mol-1]: 0.0640648
-    diffusion coefficient [m2 s-1]: 1000
   - name: SO4
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: DMS
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: NH3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
     molecular weight [kg mol-1]: 0.017031
-    diffusion coefficient [m2 s-1]: 1000
   - name: NH4NO3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: NH4
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: HCl
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: HOCl
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ClONO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: Cl
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ClO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: Cl2O2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: Cl2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true
   - name: HOBr
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: HBr
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: BrONO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: Br
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: BrO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: BrCl
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: LCH4
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: H
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: H2O
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ROH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: RCHO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ISOPNB
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ISOPNBO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MACRN
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MVKN
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: R4N2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MEK
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: R4N1
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: IEPOX
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: IEPOXOO
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: GLYX
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MGLY
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MVKO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MVKOOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MACRNO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MAO3
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MAOP
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: MAOPO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ATO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ATOOH
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: INO2
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: INPN
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ISNOOA
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: ISN1
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: O3S
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: O3S_E90
-    type: CHEM_SPEC
-    absolute tolerance: 1e-12
+    __is_gas: true  
   - name: CO2
-    type: CHEM_SPEC
+    __is_gas: true  
   - name: RCOOH
-    type: CHEM_SPEC
+    __is_gas: true
