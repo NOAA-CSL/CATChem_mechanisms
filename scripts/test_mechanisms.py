@@ -36,14 +36,13 @@ def test_mechanism(mech_dir: str) -> bool:
             "output time step [min]": 1.0,
             "simulation length [day]": 0.001
         },
-        "initial conditions": {},
-        "environmental conditions": {
-            "temperature": {
-                "initial value [K]": 298.15
-            },
-            "pressure": {
-                "initial value [Pa]": 101325.0
-            }
+        "conditions": {
+            "data": [
+                {
+                    "headers": ["time.s", "ENV.temperature.K", "ENV.pressure.Pa"],
+                    "rows": [[0.0, 299.55169, 99255.610]]
+                }
+            ]
         },
         "model components": [
             {

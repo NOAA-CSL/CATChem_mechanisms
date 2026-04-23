@@ -1,4 +1,12 @@
-camp-files:
-  - "species.yaml"
-  - "reactions.yaml"
-  - "user_rxns.yaml"
+version: "1.1.0"
+name: AM4.1
+species:
+  files:
+    - species.yaml
+reactions:
+  files:
+    - reactions.yaml
+    - user_rxns.yaml
+phases:
+  files:
+    - phases.yaml
