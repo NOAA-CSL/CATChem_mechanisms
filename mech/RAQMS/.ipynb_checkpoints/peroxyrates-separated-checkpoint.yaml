@@ -1,0 +1,3650 @@
+- type: ARRHENIUS
+  name: r122_ch3o2_32
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 2.5e-13
+  C: 190
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+      coefficient: 2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_ethp_55
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 2.6e-13
+  C: 95
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: ETHP
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_pac_58
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.3e-12
+  C: 640
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: PAC
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_ro2_61
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 2.3e-14
+  C: 1085
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: RO2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_ano2_66
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 2.8e-12
+  C: 95
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: ANO2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_nap_68
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1e-12
+  C: 95
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: NAP
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_xo2_63
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: XO2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_isopp_73
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: ISOPP
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_isopn_77
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: ISOPN
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_isopo2_80
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: ISOPO2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_macro2_78
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: MACRO2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_mvko2_79
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: MVKO2
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_mpac_81
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 1.3e-12
+  C: 640
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: MPAC
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_po2n_85
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 2.3e-14
+  C: 1085
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: PO2_N
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r122_po2i_86
+  __rxn: 'CH3O2 + totperoxy -> 0.66 CH2O + 0.32 HO2 + 0.34 CH3OH'
+  A: 2.3e-14
+  C: 1085
+  gas phase: gas
+  reactants:
+    - species name: CH3O2
+    - species name: PO2_I
+  products:
+    - species name: CH2O
+      coefficient: 0.66
+    - species name: HO2
+      coefficient: 0.32
+    - species name: CH3OH
+      coefficient: 0.34
+- type: ARRHENIUS
+  name: r123_ch3o2_32
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 2.6e-13
+  C: 95
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: CH3O2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2 
+- type: ARRHENIUS
+  name: r123_ethp_55
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 6.8e-14
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+      coefficient: 2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_pac_58
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 8.9e-13
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: PAC
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2 
+- type: ARRHENIUS
+  name: r123_ro2_61
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 1.2e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: RO2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_ano2_66
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 1.5e-12
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: ANO2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_nap_68
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 5.2e-13
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: NAP
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_xo2_63
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: XO2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_isopp_73
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: ISOPP
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_isopn_77
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: ISOPN
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_isopo2_80
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: ISOPO2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_macro2_78
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: MACRO2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_mvko2_79
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: MVKO2
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_mpac_81
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 8.9e-13
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: MPAC
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_po2n_85
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 1.2e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: PO2_N
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r123_po2i_86
+  __rxn: 'ETHP + totperoxy -> 0.8 ALD2 + 0.6 HO2 + 0.2 C2H6'
+  A: 1.2e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: ETHP
+    - species name: PO2_I
+  products:
+    - species name: ALD2
+      coefficient: 0.8
+    - species name: HO2
+      coefficient: 0.6
+    - species name: C2H6
+      coefficient: 0.2
+- type: ARRHENIUS
+  name: r124_ch3o2_32
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 1.3e-12
+  C: 640
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: CH3O2 
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_ethp_55
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 8.9e-13
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: ETHP
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_pac_58
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 2.9e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: PAC
+      coefficient: 2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_ro2_61
+  __rxn: 'PAC +7.8e-14 totperoxy -> CH3O2 + CO2'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: RO2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_ano2_66
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 9.6e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: ANO2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_nap_68
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 3.4e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: NAP
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_xo2_63
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: XO2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_isopp_73
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: ISOPP
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_isopn_77
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: ISOPN
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_isopo2_80
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: ISOPO2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_macro2_78
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: MACRO2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_mvko2_79
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: MVKO2
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_mpac_81
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 2.9e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: MPAC
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_po2n_85
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: PO2_N
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r124_po2i_86
+  __rxn: 'PAC + totperoxy -> CH3O2 + CO2'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PAC
+    - species name: PO2_I
+  products:
+    - species name: CH3O2
+    - species name: CO2
+    - species name: C2H6
+- type: ARRHENIUS
+  name: r129_ch3o2_32
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 2.3e-14
+  C: 1085
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: CH3O2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_ethp_55
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 1.2e-14
+  gas phase: gas
+  C: 990
+  reactants:
+    - species name: RO2
+    - species name: ETHP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_pac_58
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: PAC
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_ro2_61
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: RO2
+      coefficient: 2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_ano2_66
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 1.3e-13
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: ANO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_nap_68
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 4.6e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: NAP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_xo2_63
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: XO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_isopp_73
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: ISOPP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_isopn_77
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: ISOPN
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_isopo2_80
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: ISOPO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_macro2_78
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: MACRO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_mvko2_79
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: MVKO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_mpac_81
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: MPAC
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_po2n_85
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: PO2_N
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r129_po2i_86
+  __rxn: 'RO2 + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: RO2
+    - species name: PO2_I
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PAR
+      coefficient: -1.25
+#- type: ARRHENIUS
+#  name: r133
+#  __rxn: 'XO2 + totperoxy -> products'
+#  A: 
+#  C: 
+#  gas phase: gas
+#  reactants:
+#    - species name: 
+#    - species name: 
+#  products:
+- type: ARRHENIUS
+  name: r138_ch3o2_32
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 2.8e-12
+  C: 95
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: CH3O2
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_ethp_55
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.5e-12
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: ETHP
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_pac_58
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 9.6e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: PAC
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_ro2_61
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.3e-13
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: RO2 
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_ano2_66
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 8.0e-12
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+      coefficient: 2 
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_nap_68
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 5.7e-12
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: NAP
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_xo2_63
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: XO2
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_isopp_73
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: ISOPP
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_isopn_77
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: ISOPN
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_isopo2_80
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: ISOPO2
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_macro2_78
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: MACRO2
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_mvko2_79
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: MVKO2
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_mpac_81
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 9.6e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: MPAC
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_po2n_85
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.3e-13
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: PO2_N
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r138_po2i_86
+  __rxn: 'ANO2 + totperoxy -> 0.7 PAC + 0.7 CH2O + 0.15 MGLY'
+  A: 1.3e-13
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: ANO2
+    - species name: PO2_I
+  products:
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: MGLY
+      coefficient: 0.15
+- type: ARRHENIUS
+  name: r146_ch3o2_32
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 1.0e-12
+  C: 95
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: CH3O2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_ethp_55
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 5.2e-13
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: ETHP
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_pac_58
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.4e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: PAC
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_ro2_61
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 4.6e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: RO2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_ano2_66
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 5.7e-12
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: ANO2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_nap_68
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 1.0e-12
+  C: 0
+  gas phase: gas
+  reactants:
+    - species name: NAP
+      coefficient: 2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_xo2_63
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: XO2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_isopp_73
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: ISOPP
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_isopn_77
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: ISOPN
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_isopo2_80
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: ISOPO2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_macro2_78
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: MACRO2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_mvko2_79
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: MVKO2
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_mpac_81
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 3.4e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: MPAC
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_po2n_85
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 4.6e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: PO2_N
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r146_po2i_86
+  __rxn: 'NAP + totperoxy -> 0.5 NO2 + 0.5 CH2O + 0.5 ALD2 + 0.5 ONIT - PAR'
+  A: 4.6e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: NAP
+    - species name: PO2_I
+  products:
+    - species name: NO2
+      coefficient: 0.5
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: ALD2
+      coefficient: 0.5
+    - species name: ONIT
+      coefficient: 0.5
+    - species name: PAR
+      coefficient: -1
+- type: ARRHENIUS
+  name: r217_ch3o2_32
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 2.3e-14
+  C: 1085
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: CH3O2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_ethp_55
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 1.2e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: ETHP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_pac_58
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: PAC
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_ro2_61
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: RO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_ano2_66
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 1.3e-13
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: ANO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_nap_68
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 4.6e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: NAP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_xo2_63
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: XO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_isopp_73
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: ISOPP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_isopn_77
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: ISOPN
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_isopo2_80
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: ISOPO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_macro2_78
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: MACRO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_mvko2_79
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: MVKO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_mpac_81
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: MPAC
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_po2n_85
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+      coefficient: 2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r217_po2i_86
+  __rxn: 'PO2-n + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: PO2_N
+    - species name: PO2_I
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_ch3o2_32
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 2.3e-14
+  C: 1085
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: CH3O2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_ethp_55
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 1.2e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: ETHP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_pac_58
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: PAC
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_ro2_61
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: RO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_ano2_66
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 1.3e-13
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: ANO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_nap_68
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 4.6e-14
+  C: 990
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: NAP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_xo2_63
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: XO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_isopp_73
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: ISOPP
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_isopn_77
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: ISOPN
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_isopo2_80
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: ISOPO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_macro2_78
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: MACRO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_mvko2_79
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: MVKO2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_mpac_81
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: MPAC
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_po2n_85
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+    - species name: PO2_N 
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r218_po2i_86
+  __rxn: 'PO2-i + totperoxy -> 0.24 XO2 + 0.21 ALD2 + 0.06 ETHP + 0.54 HO2 - 1.25 PROPPAR'
+  A: 5.3e-16
+  C: 1980
+  gas phase: gas
+  reactants:
+    - species name: PO2_I
+      coefficient: 2
+  products:
+    - species name: XO2
+      coefficient: 0.24
+    - species name: ALD2
+      coefficient: 0.21
+    - species name: ETHP
+      coefficient: 0.06
+    - species name: HO2
+      coefficient: 0.54
+    - species name: PROP_PAR
+      coefficient: -1.25
+- type: ARRHENIUS
+  name: r199_ch3o2_32
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: CH3O2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_ethp_55
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: ETHP
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_pac_58
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: PAC
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_ro2_61
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: RO2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_ano2_66
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: ANO2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_nap_68
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: NAP
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_xo2_63
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: XO2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_isopp_73
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 3.1e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+      coefficient: 2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_isopn_77
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: ISOPN
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_isopo2_80
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: ISOPO2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_macro2_78
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: MACRO2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_mvko2_79
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: MVKO2
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_mpac_81
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: MPAC
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_po2n_85
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: PO2_N
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r199_po2i_86
+  __rxn: 'isopp + totperoxy -> 0.35 MACR + 0.27 MVK + 0.38 ISOPRD + 0.62 CH2O + 0.62 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPP
+    - species name: PO2_I
+  products:
+    - species name: MACR
+      coefficient: 0.35
+    - species name: MVK
+      coefficient: 0.27
+    - species name: ISOPRD
+      coefficient: 0.38
+    - species name: CH2O
+      coefficient: 0.62
+    - species name: HO2
+      coefficient: 0.62
+- type: ARRHENIUS
+  name: r200_ch3o2_32
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: CH3O2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_ethp_55
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: ETHP
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_pac_58
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: PAC
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_ro2_61
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: RO2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_ano2_66
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: ANO2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_nap_68
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: NAP
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_xo2_63
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: XO2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_isopp_73
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: ISOPP
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_isopn_77
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 3.1e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+      coefficient: 2 
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_isopo2_80
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: ISOPO2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_macro2_78
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: MACRO2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_mvko2_79
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: MVKO2
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_mpac_81
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: MPAC
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_po2n_85
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: PO2_N
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r200_po2i_86
+  __rxn: 'isopn + totperoxy -> ALD2 + ONIT + 2 PAR'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPN
+    - species name: PO2_I
+  products:
+    - species name: ALD2
+    - species name: ONIT
+    - species name: PAR
+      coefficient: 2
+- type: ARRHENIUS
+  name: r210_ch3o2_32
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: CH3O2
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_ethp_55
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: ETHP
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_pac_58
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: PAC
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_ro2_61
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: RO2
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_ano2_66
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: ANO2
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_nap_68
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: NAP
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_xo2_63
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: XO2
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_isopp_73
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: ISOPP
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_isopn_77
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: ISOPN
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_isopo2_80
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 3.1e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+      coefficient: 2 
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_macro2_78
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: MACRO2
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_mvko2_79
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: MVKO2
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_mpac_81
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: MPAC
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_po2n_85
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name: PO2_N
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r210_po2i_86
+  __rxn: 'isopo2 + totperoxy -> 0.5 MGLY + ALD2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: ISOPO2
+    - species name:  PO2_I
+  products:
+    - species name: ALD2
+    - species name: MGLY
+      coefficient: 0.5
+- type: ARRHENIUS
+  name: r201_ch3o2_32
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: CH3O2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_ethp_55
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: ETHP
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_pac_58
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: PAC
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_ro2_61
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: RO2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_ano2_66
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: ANO2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_nap_68
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: NAP
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_xo2_63
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: XO2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_isopp_73
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: ISOPP
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_isopn_77
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: ISOPN
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_isopo2_80
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: ISOPO2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_macro2_78
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 3.1e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+      coefficient: 2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_mvko2_79
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: MVKO2
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_mpac_81
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: MPAC
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_po2n_85
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: PO2_N
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r201_po2i_86
+  __rxn: 'macro2 + totperoxy -> 0.53 MGLY + 0.5 CH2O + 0.5 CO + 0.91 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: MACRO2
+    - species name: PO2_I
+  products:
+    - species name: MGLY
+      coefficient: 0.53
+    - species name: CH2O
+      coefficient: 0.5
+    - species name: CO
+      coefficient: 0.5
+    - species name: HO2
+      coefficient: 0.91
+- type: ARRHENIUS
+  name: r202_ch3o2_32
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 1.8e-13
+  C: 595
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: CH3O2
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_ethp_55
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 9.2e-14
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: ETHP
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_pac_58
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: PAC
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_ro2_61
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: RO2
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_ano2_66
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 1.0e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: ANO2
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_nap_68
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 3.5e-13
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: NAP
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_xo2_63
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: XO2
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_isopp_73
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: ISOPP
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_isopo2_80
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: ISOPO2
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_macro2_78
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 6.2e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: MACRO2
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_mvko2_79
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 3.1e-14
+  C: 1000
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+      coefficient: 2 
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_mpac_81
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: MPAC
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_po2n_85
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: PO2_N
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r202_po2i_86
+  __rxn: 'mvko2 + totperoxy -> 0.3 MGLY + 0.7 ALD2 + 0.7 PAC + 0.3 CH2O + 0.3 HO2'
+  A: 8.1e-15
+  C: 1490
+  gas phase: gas
+  reactants:
+    - species name: MVKO2
+    - species name: PO2_I
+  products:
+    - species name: MGLY
+      coefficient: 0.3
+    - species name: ALD2
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CH2O
+      coefficient: 0.3
+    - species name: HO2
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_ch3o2_32
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 1.3e-12
+  C: 640
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: CH3O2 
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_ethp_55
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 8.9e-13
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: ETHP
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_pac_58
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 2.9e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: PAC
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_ro2_61
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: RO2
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_ano2_66
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 9.6e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: ANO2
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_nap_68
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 3.4e-12
+  C: 250
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: NAP
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_xo2_63
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: XO2
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_isopp_73
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: ISOPP
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_isopn_77
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: ISOPN
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_isopo2_80
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: ISOPO2
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_macro2_78
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: MACRO2
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_mvko2_79
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 6.0e-13
+  C: 750
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: MVKO2
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_mpac_81
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 2.9e-12
+  C: 500
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+      coefficient: 2 
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_po2n_85
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: PO2_N
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
+- type: ARRHENIUS
+  name: r209_po2i_86
+  __rxn: 'mpac + totperoxy -> 0.7 ch2o + 0.7 PAC + 0.7 CO2 + 0.3 RCOOH'
+  A: 7.8e-14
+  C: 1240
+  gas phase: gas
+  reactants:
+    - species name: MPAC
+    - species name: PO2_I
+  products:
+    - species name: CH2O
+      coefficient: 0.7
+    - species name: PAC
+      coefficient: 0.7
+    - species name: CO2
+      coefficient: 0.7
+    - species name: RCOOH
+      coefficient: 0.3
