@@ -1,0 +1,669 @@
+O2 absorption:
+  cross section parameters file: data/cross_sections/O2_parameters.txt
+__description: TUV-x configuration for the AM4.1 chemical mechanism
+__CAM options:
+  aliasing:
+    default matching: backup
+    pairs:
+    - __reaction: ISOPOOH + hv -> 0.402*MVK + 0.288*MACR + 0.69*CH2O + HO2
+      from: jch3ooh
+      to: jisopooh
+    - __reaction: POOH (C3H6OHOOH) + hv -> CH3CHO + CH2O + HO2 + OH
+      from: jch3ooh
+      to: jpooh
+    - __reaction: CH3COOOH + hv -> CH3O2 + OH + CO2
+      from: jh2o2
+      scale by: 0.28
+      to: jch3co3h
+    - __reaction: MPAN + hv -> MAO3 + NO2
+      from: jpan
+      to: jmpan
+    - __reaction: C2H5OOH + hv -> CH3CHO + HO2 + OH
+      from: jch3ooh
+      to: jc2h5ooh
+    - __reaction: C3H7OOH + hv -> 0.82*CH3COCH3 + OH + HO2
+      from: jch3ooh
+      to: jc3h7ooh
+    - __reaction: GLYOXAL + hv -> 2*CO + 2*HO2
+      from: jmgly
+      to: jglyoxal
+    - __reaction: ISOPNB + hv -> RCHO + NO2 + HO2
+      from: jch3ooh
+      to: jisopnb
+    - __reaction: MACRN + hv -> NO2 + HYAC + MGLY + .5*CH2O + HO2 + .5*CO 
+      from: jch2o_a
+      scale by: 5.8
+      to: jmacrn
+    - __reaction: MVKN + hv -> GLYALD + NO2 + CH3CO3
+      from: jch2o_a
+      scale by: 1.26
+      to: jmvkn
+    - __reaction: R4N2 + hv ->  NO2 + .32*CH3COCH3 + .19*MEK + .18*CH3O2 + .27*HO2 + .32*CH3CHO + .13*RCHO 
+      from: jch2o_a
+      to: jr4n2
+grids:
+- begins at: 0.0
+  cell delta: 1.0
+  ends at: 120.0
+  name: height
+  type: equal interval
+  units: km
+- file path: data/grids/wavelength/cam.csv
+  name: wavelength
+  type: from csv file
+  units: nm
+- name: time
+  type: from config file
+  units: hours
+  values:
+  - 12.0
+  - 14.0
+photolysis:
+  reactions:
+  - __reaction: O2 + hv -> O + O
+    cross section:
+      apply O2 bands: true
+      netcdf files:
+      - file path: data/cross_sections/O2_1.nc
+        interpolator:
+          type: fractional target
+        lower extrapolation:
+          type: boundary
+      type: base
+    heating:
+      energy term: 242.37
+    name: jo2
+    quantum yield:
+      constant value: 1.0
+      override bands:
+      - band: lyman-alpha
+        value: 0.47
+      - band: schumann-runge continuum
+        value: 0.0
+      type: base
+  - __reaction: O3 + hv -> O2 + O(1D)
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/O3_1.nc
+      - file path: data/cross_sections/O3_2.nc
+      - file path: data/cross_sections/O3_3.nc
+      - file path: data/cross_sections/O3_4.nc
+      type: O3
+    heating:
+      energy term: 310.32
+    name: jo1d
+    quantum yield:
+      type: O3+hv->O2+O(1D)
+  - __reaction: O3 + hv -> O2 + O
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/O3_1.nc
+      - file path: data/cross_sections/O3_2.nc
+      - file path: data/cross_sections/O3_3.nc
+      - file path: data/cross_sections/O3_4.nc
+      type: O3
+    heating:
+      energy term: 1179.87
+    name: jo3p
+    quantum yield:
+      type: O3+hv->O2+O(3P)
+  - __reaction: N2O + hv -> N2 + O(1D)
+    cross section:
+      type: N2O+hv->N2+O(1D)
+    name: jn2o
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: NO2 + hv -> NO + O(3P)
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/NO2_1.nc
+      type: NO2 tint
+    name: jno2
+    quantum yield:
+      lower extrapolation:
+        type: boundary
+      netcdf files:
+      - data/quantum_yields/NO2_1.nc
+      type: NO2 tint
+  - __reaction: N2O5 + hv -> NO2 + NO3
+    cross section:
+      netcdf file: data/cross_sections/N2O5_JPL06.nc
+      parameterization:
+        aa:
+        - -18.27
+        - -18.42
+        - -18.59
+        - -18.72
+        - -18.84
+        - -18.9
+        - -18.93
+        - -18.87
+        - -18.77
+        - -18.71
+        - -18.31
+        - -18.14
+        - -18.01
+        - -18.42
+        - -18.59
+        - -18.13
+        base temperature: 0.0
+        base wavelength: 0.0
+        bb:
+        - -91.0
+        - -104.0
+        - -112.0
+        - -135.0
+        - -170.0
+        - -226.0
+        - -294.0
+        - -388.0
+        - -492.0
+        - -583.0
+        - -770.0
+        - -885.0
+        - -992.0
+        - -949.0
+        - -966.0
+        - -1160.0
+        logarithm: base 10
+        maximum wavelength: 410.0
+        minimum wavelength: 260.0
+        temperature ranges:
+        - fixed value: 200
+          maximum: 199.999999999999
+        - maximum: 295
+          minimum: 200
+        - fixed value: 295.0
+          minimum: 295.00000000001
+        type: HARWOOD
+      parameterization wavelength grid:
+        name: custom wavelengths
+        type: from config file
+        units: nm
+        values:
+        - 255.0
+        - 265.0
+        - 275.0
+        - 285.0
+        - 295.0
+        - 305.0
+        - 315.0
+        - 325.0
+        - 335.0
+        - 345.0
+        - 355.0
+        - 365.0
+        - 375.0
+        - 385.0
+        - 395.0
+        - 405.0
+        - 415.0
+      type: temperature based
+    name: jn2o5
+    quantum yield:
+      coefficients:
+      - -2.832441
+      - 0.012809638
+      constant value: 0.0
+      override bands:
+      - band: range
+        minimum wavelength: 300.0
+        value: 1.0
+      type: Taylor series
+  - __reaction: HNO3 + hv -> OH + NO2
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/HNO3_JPL06.nc
+      type: HNO3+hv->OH+NO2
+    name: jhno3
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: NO3 + hv -> NO2 + O(3P)
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/NO3_1.nc
+      type: base
+    name: jno3_a
+    quantum yield:
+      lower extrapolation:
+        type: constant
+        value: 1.0
+      netcdf files:
+      - data/quantum_yields/NO3-NO2+O(3P)_1.nc
+      type: tint
+  - __reaction: NO3 + hv -> NO + O2
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/NO3_1.nc
+      type: base
+    name: jno3_b
+    quantum yield:
+      netcdf files:
+      - data/quantum_yields/NO3-NO+O2_1.nc
+      type: tint
+  - __reaction: CH3OOH + hv -> CH3O + OH
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/CH3OOH_1.nc
+      type: base
+    name: jch3ooh
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: CH2O + hv -> H + HCO
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/CH2O_1.nc
+      type: CH2O
+    name: jch2o_a
+    quantum yield:
+      lower extrapolation:
+        type: boundary
+      netcdf files:
+      - data/quantum_yields/CH2O_1.nc
+      type: base
+  - __reaction: CH2O + hv -> H2 + CO
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/CH2O_1.nc
+      type: CH2O
+    name: jch2o_b
+    quantum yield:
+      lower extrapolation:
+        type: boundary
+      netcdf files:
+      - data/quantum_yields/CH2O_1.nc
+      type: CH2O
+  - __reaction: H2O2 + hv -> OH + OH
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/H2O2_1.nc
+      type: H2O2+hv->OH+OH
+    name: jh2o2
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: CH3CHO + hv -> CH3 + HCO
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/CH3CHO_1.nc
+      type: base
+    name: jch3cho
+    quantum yield:
+      netcdf files:
+      - data/quantum_yields/CH3CHO_1.nc
+      type: CH3CHO+hv->CH3+HCO
+  - __reaction: PAN + hv -> 0.6*CH3CO3 + 0.6*NO2 + 0.4*CH3O2 + 0.4*NO3 + 0.4*CO2
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/PAN_1.nc
+      type: CH3ONO2+hv->CH3O+NO2
+    name: jpan
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: MVK + hv -> 0.7*C3H6 + 0.7*CO + 0.3*CH3O2 + 0.3*CH3CO3
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/MVK_1.nc
+      type: base
+    name: jmvk
+    quantum yield:
+      type: MVK+hv->Products
+  - __reaction: CH3COCH3 + hv -> CH3CO + CH3
+    cross section:
+      parameterization:
+        base temperature: 0.0
+        netcdf file:
+          file path: data/cross_sections/ACETONE_JPL06.nc
+        temperature ranges:
+        - fixed value: 235.0
+          maximum: 234.999999999999
+        - maximum: 298.0
+          minimum: 235.0
+        - fixed value: 298.0
+          minimum: 298.00000000001
+        type: TAYLOR_SERIES
+      type: temperature based
+    name: jacet
+    quantum yield:
+      branch: CO+CH3CO
+      low wavelength value: 1
+      maximum temperature: 295
+      minimum temperature: 218
+      type: CH3COCH3+hv->CH3CO+CH3
+  - __reaction: CH3COCHO + hv -> CH3CO3 + CO + HO2
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/CH3COCHO_1.nc
+      type: base
+    name: jmgly
+    quantum yield:
+      type: CH3COCHO+hv->CH3CO+HCO
+  - __reaction: GLYALD + hv -> 2*HO2 + CO + CH2O
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/HOCH2CHO_1.nc
+      type: base
+    name: jglyald
+    quantum yield:
+      constant value: 0.5
+      type: base
+  - __reaction: BrCl + hv -> Br + Cl
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/BrCl_1.nc
+      type: base
+    name: jbrcl
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: BrO + hv -> Br + O
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/BRO_JPL06.nc
+      type: base
+    name: jbro
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: BrONO2 + hv -> Br + NO3
+    cross section:
+      parameterization:
+        base temperature: 296.0
+        netcdf file:
+          file path: data/cross_sections/BRONO2_JPL06.nc
+        temperature ranges:
+        - fixed value: 200.0
+          maximum: 199.999999999999
+        - maximum: 296.0
+          minimum: 200.0
+        - fixed value: 296.0
+          minimum: 296.00000000001
+        type: TAYLOR_SERIES
+      type: temperature based
+    name: jbrono2
+    quantum yield:
+      constant value: 0.85
+      type: base
+  - __reaction: Cl2 + hv -> Cl + Cl
+    cross section:
+      type: Cl2+hv->Cl+Cl
+    name: jcl2
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __comments: TODO - this doesn't exactly match the products in TS1
+    __reaction: ClOOCl + hv -> Cl + ClOO
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/CL2O2_JPL10.nc
+      type: base
+    name: jcl2o2
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: ClONO2 + hv -> Cl + NO3
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/ClONO2_1.nc
+      type: ClONO2
+    name: jclono2
+    quantum yield:
+      type: ClONO2+hv->Cl+NO3
+  - __reaction: HOBr + hv -> OH + Br
+    cross section:
+      type: HOBr+hv->OH+Br
+    name: jhobr
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: HOCl + hv -> HO + Cl
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/HOCl_1.nc
+      type: base
+    name: jhocl
+    quantum yield:
+      constant value: 1.0
+      type: base
+  - __reaction: HO2NO2 + hv -> HO2 + NO2
+    cross section:
+      netcdf file: data/cross_sections/HO2NO2_JPL06.nc
+      parameterization:
+        A: -988.0
+        B: 0.69
+        netcdf file:
+          file path: data/cross_sections/HO2NO2_temp_JPL06.nc
+        temperature ranges:
+        - fixed value: 280.0
+          maximum: 279.999999999999
+        - maximum: 350.0
+          minimum: 280.0
+        - fixed value: 350.0
+          minimum: 350.00000000001
+        type: BURKHOLDER
+      type: temperature based
+    name: jho2no2
+    quantum yield:
+      constant value: 0.7
+      override bands:
+      - band: range
+        minimum wavelength: 200.0
+        value: 0.8
+      type: base
+  - __comments: Methacrolein photolysis channel 1
+    __reaction: CH2=C(CH3)CHO->1.34HO2+0.66MCO3+1.34CH2O+CH3CO3
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/Methacrolein_1.nc
+      type: base
+    name: jmacr_a
+    quantum yield:
+      constant value: 0.005
+      type: base
+  - __comments: Methacrolein photolysis channel 2
+    __reaction: CH2=C(CH3)CHO->0.66OH+1.34CO
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/Methacrolein_1.nc
+      type: base
+    name: jmacr_b
+    quantum yield:
+      constant value: 0.005
+      type: base
+  - __comments: 'hydroxy acetone TODO: the products of this reaction differ from standalone
+      TUV-x'
+    __reaction: CH2(OH)COCH3->CH3CO3+HO2+CH2O
+    cross section:
+      netcdf files:
+      - file path: data/cross_sections/Hydroxyacetone_1.nc
+      type: base
+    name: jhyac
+    quantum yield:
+      constant value: 0.65
+      type: base
+  - __reaction: H2O + hv -> OH + H
+    cross section:
+      merge data: true
+      netcdf files:
+      - file path: data/cross_sections/H2O_1.nc
+        zero above: 183.0
+      - file path: data/cross_sections/H2O_2.nc
+        zero above: 190.0
+        zero below: 183.00000000001
+      - file path: data/cross_sections/H2O_3.nc
+        zero below: 190.00000000001
+      type: base
+    name: jh2o
+    quantum yield:
+      netcdf files:
+      - data/quantum_yields/H2O_H_OH.nc
+      type: base
+  - __reaction: NO + hv -> NOp + e
+    cross section:
+      data:
+        default value: 0.0
+        point values:
+        - value: 2.0e-18
+          wavelength: 121.65
+      type: base
+    name: jno
+    quantum yield:
+      constant value: 1.0
+      type: base
+profiles:
+- file path: data/profiles/atmosphere/ussa.ozone
+  name: O3
+  type: O3
+  units: molecule cm-3
+- file path: data/profiles/atmosphere/ussa.dens
+  name: air
+  type: air
+  units: molecule cm-3
+- file path: data/profiles/atmosphere/ussa.dens
+  name: O2
+  type: O2
+  units: molecule cm-3
+- file path: data/profiles/atmosphere/ussa.temp
+  grid:
+    name: height
+    units: km
+  name: temperature
+  type: from csv file
+  units: K
+- day: 21
+  latitude: 0.0
+  longitude: 0.0
+  month: 3
+  name: solar zenith angle
+  type: solar zenith angle
+  units: degrees
+  year: 2002
+- day: 21
+  month: 3
+  name: Earth-Sun distance
+  type: Earth-Sun distance
+  units: AU
+  year: 2002
+- grid:
+    name: wavelength
+    units: nm
+  name: surface albedo
+  type: from config file
+  uniform value: 0.1
+  units: none
+- enable diagnostics: true
+  file path:
+  - data/profiles/solar/susim_hi.flx
+  - data/profiles/solar/atlas3_1994_317_a.dat
+  - data/profiles/solar/sao2010.solref.converted
+  - data/profiles/solar/neckel.flx
+  interpolator:
+  - ''
+  - ''
+  - ''
+  - fractional target
+  name: extraterrestrial flux
+  type: extraterrestrial flux
+  units: photon cm-2 s-1
+radiative transfer:
+  __output: true
+  cross sections:
+  - name: air
+    type: air
+  - name: O3
+    netcdf files:
+    - file path: data/cross_sections/O3_1.nc
+    - file path: data/cross_sections/O3_2.nc
+    - file path: data/cross_sections/O3_3.nc
+    - file path: data/cross_sections/O3_4.nc
+    type: O3
+  - name: O2
+    netcdf files:
+    - file path: data/cross_sections/O2_1.nc
+      lower extrapolation:
+        type: boundary
+    type: base
+  radiators:
+  - cross section: air
+    enable diagnostics: true
+    name: air
+    treat as air: true
+    type: base
+    vertical profile: air
+    vertical profile units: molecule cm-3
+  - cross section: O2
+    enable diagnostics: true
+    name: O2
+    type: base
+    vertical profile: O2
+    vertical profile units: molecule cm-3
+  - cross section: O3
+    enable diagnostics: true
+    name: O3
+    type: base
+    vertical profile: O3
+    vertical profile units: molecule cm-3
+  - 550 nm optical depth: 0.235
+    asymmetry factor: 0.61
+    enable diagnostics: true
+    name: aerosols
+    optical depths:
+    - 0.24
+    - 0.106
+    - 0.0456
+    - 0.0191
+    - 0.0101
+    - 0.00763
+    - 0.00538
+    - 0.005
+    - 0.00515
+    - 0.00494
+    - 0.00482
+    - 0.00451
+    - 0.00474
+    - 0.00437
+    - 0.00428
+    - 0.00403
+    - 0.00383
+    - 0.00378
+    - 0.00388
+    - 0.00308
+    - 0.00226
+    - 0.00164
+    - 0.00123
+    - 0.000945
+    - 0.000749
+    - 0.00063
+    - 0.00055
+    - 0.000421
+    - 0.000322
+    - 0.000248
+    - 0.00019
+    - 0.000145
+    - 0.000111
+    - 8.51e-05
+    - 6.52e-05
+    - 5.0e-05
+    - 3.83e-05
+    - 2.93e-05
+    - 2.25e-05
+    - 1.72e-05
+    - 1.32e-05
+    - 1.01e-05
+    - 7.72e-06
+    - 5.91e-06
+    - 4.53e-06
+    - 3.46e-06
+    - 2.66e-06
+    - 2.04e-06
+    - 1.56e-06
+    - 1.19e-06
+    - 9.14e-07
+    single scattering albedo: 0.99
+    type: aerosol
+  solver:
+    type: delta eddington

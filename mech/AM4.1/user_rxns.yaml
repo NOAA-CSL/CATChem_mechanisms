@@ -46,10 +46,10 @@
     - species name: ATO2
     - species name: H2O
 - type: TROE
-  k0_A: 0.0007408
+  k0_A: 7.408e-4
   k0_B: -4.4
   k0_C: -11000
-  kinf_A: 518560000000000
+  kinf_A: 5.1856e14
   kinf_B: -0.7
   kinf_C: -11000
   Fc: 0.6
@@ -136,10 +136,10 @@
     - species name: M
     - species name: H2O
 - type: TROE
-  k0_A: 0.00042
+  k0_A: 4.2e-4
   k0_B: -3.4
   k0_C: -10900
-  kinf_A: 6090000000000000
+  kinf_A: 6.09e15
   kinf_B: -1.2
   kinf_C: -10900
   Fc: 0.6
@@ -185,27 +185,27 @@
   name: no2h (1)
   gas phase: gas
   gas-phase species: NO2
-  reaction probability: 0.00001
+  reaction probability: 1e-5
   gas-phase products:
     - species name: HNO3
       coefficient: 0.5
     - species name: OH
       coefficient: 0.5
-    - species name: NO
+    - species name: 'NO'
       coefficient: 0.5
 - type: SURFACE
   name: so2h (1)
   gas phase: gas
   gas-phase species: SO2
-  reaction probability: 0.00002
+  reaction probability: 2e-5
   gas-phase products:
     - species name: SO4
       coefficient: 1
 - type: TROE
-  k0_A: 0.0000172
+  k0_A: 1.72e-05
   k0_B: -4.5
   k0_C: -8835
-  kinf_A: 2150000000000000
+  kinf_A: 2.15e15
   kinf_B: -2.4
   kinf_C: -8835
   Fc: 0.6
@@ -219,7 +219,7 @@
   k0_A: 1.07767
   k0_B: -5.6
   k0_C: -14000
-  kinf_A: 103322999999999980
+  kinf_A: 1.0332299999999998e17
   kinf_B: -1.5
   kinf_C: -14000
   Fc: 0.6
@@ -233,7 +233,7 @@
   k0_A: 9.999
   k0_B: -8.9
   k0_C: -14000
-  kinf_A: 85547000000000000
+  kinf_A: 8.5547e16
   kinf_B: -0.2
   kinf_C: -14000
   Fc: 0.6

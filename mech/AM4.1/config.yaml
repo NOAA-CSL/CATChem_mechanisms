@@ -5,8 +5,8 @@ species:
     - species.yaml
 reactions:
   files:
-    - reactions.yaml
-    - user_rxns.yaml
+    - reactions_si.yaml
+    - user_rxns_si.yaml
 phases:
   files:
     - phases.yaml
