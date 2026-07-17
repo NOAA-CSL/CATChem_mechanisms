@@ -500,6 +500,7 @@
     - species name: O
 - type: ARRHENIUS
   name: r2
+  __rxn: 'N2 + O1D -> N2 + O'
   A: 2.14e-11
   C: 110
   gas phase: gas
@@ -524,6 +525,7 @@
   name: r4
   A: 6e-34
   B: -2.3
+  __rxn: 'O2 + O + M -> O3 + M'
   gas phase: gas
   reactants:
     - species name: O
@@ -548,6 +550,7 @@
   name: r6
   A: 2.2e-11
   C: 120
+  __rxn: 'O + OH -> O2 + H'
   gas phase: gas
   reactants:
     - species name: O
@@ -559,6 +562,7 @@
   name: r7
   A: 3e-11
   C: 200
+  __rxn: 'HO2 + O -> OH + O2'
   gas phase: gas
   reactants:
     - species name: O
@@ -594,6 +598,7 @@
   name: r10
   A: 3.4e-11
   C: -1600
+  __rxn: 'CH2O + O -> CHO + OH'
   gas phase: gas
   reactants:
     - species name: O
@@ -602,6 +607,7 @@
     - species name: OH
     - species name: CHO
 - type: TROE
+  __rxn: 'H + O2 + M -> HO2 + M'
   k0_A: 5.7e-32
   k0_B: -1.6
   kinf_A: 7.5e-11
@@ -615,6 +621,7 @@
     - species name: HO2
 - type: ARRHENIUS
   name: r12
+  __rxn: 'O3 + OH -> HO2 + O2'
   A: 1.5e-12
   C: -880
   gas phase: gas
@@ -626,17 +633,19 @@
     - species name: O2
 - type: ARRHENIUS
   name: r13
+  __rxn: 'O3 + NO -> NO2 + O2'
   A: 3e-12
   C: -1500
   gas phase: gas
   reactants:
     - species name: O3
-    - species name: NO
+    - species name: 'NO'
   products:
     - species name: NO2
     - species name: O2
 - type: ARRHENIUS
   name: r14
+  __rxn: 'O3 + NO2 -> NO3 + O2'
   A: 1.2e-13
   C: -2450
   gas phase: gas
@@ -648,6 +657,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r15
+  __rxn: 'O3 + H -> OH + O2'
   A: 1.4e-10
   C: -470
   gas phase: gas
@@ -659,6 +669,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r16
+  __rxn: 'OH + OH -> H2O + O'
   A: 4.2e-12
   C: -240
   gas phase: gas
@@ -680,6 +691,7 @@
     - species name: H2O
     - species name: O2
 - type: TROE
+  __rxn: 'OH + NO2 + M -> HNO3 + M'
   k0_A: 2.4e-30
   k0_B: -3.1
   kinf_A: 1.7e-11
@@ -692,6 +704,7 @@
   products:
     - species name: HNO3
 - type: TROE
+  __rxn: 'OH + NO + M -> HONO + M'
   k0_A: 7e-31
   k0_B: -2.6
   kinf_A: 3.6e-11
@@ -705,6 +718,7 @@
     - species name: HONO
 - type: ARRHENIUS
   name: r20
+  __rxn: 'HO2 + NO -> OH + NO2'
   A: 3.5e-12
   C: 250
   gas phase: gas
@@ -716,6 +730,7 @@
     - species name: NO2
 - type: ARRHENIUS
   name: r21
+  __rxn: 'H2O2 + OH -> HO2 + H2O'
   A: 2.9e-12
   C: -160
   gas phase: gas
@@ -727,6 +742,7 @@
     - species name: HO2
 - type: ARRHENIUS
   name: r22 (1)
+  __rxn: 'HO2 + HO2 -> H2O2 + O2'
   A: 2.3e-13
   C: 600
   gas phase: gas
@@ -779,6 +795,7 @@
     - species name: M
 - type: ARRHENIUS
   name: r23
+  __rxn: 'NO + NO3 -> 2 NO2'
   A: 1.5e-11
   C: 170
   gas phase: gas
@@ -789,6 +806,7 @@
     - species name: NO2
       coefficient: 2
 - type: TROE
+  __rxn: 'NO + O + M -> NO2 + M'
   k0_A: 9e-32
   k0_B: -1.5
   kinf_A: 3e-11
@@ -802,6 +820,7 @@
     - species name: NO2
 - type: ARRHENIUS
   name: r25
+  __rxn: 'N2O + O1D -> N2 + O2'
   A: 4.9e-11
   gas phase: gas
   reactants:
@@ -823,6 +842,7 @@
       coefficient: 2
 - type: ARRHENIUS
   name: r27
+  __rxn: 'N2 + O1D + M -> N2O + M'
   A: 3.5e-37
   B: -0.6
   gas phase: gas
@@ -835,6 +855,7 @@
     - species name: M
 - type: ARRHENIUS
   name: r28
+  __rxn: 'O3 + HO2 -> OH + 2 O2'
   A: 2e-14
   C: -680
   gas phase: gas
@@ -847,6 +868,7 @@
       coefficient: 2
 - type: ARRHENIUS
   name: r29 (1)
+  __rxn: 'HNO3 + OH -> NO3 + H2O'
   A: 2.4e-14
   C: 460
   gas phase: gas
@@ -872,6 +894,7 @@
     - species name: NO3
 - type: ARRHENIUS
   name: r30
+  __rxn: 'H2 + O1D -> H + OH'
   A: 1.1e-10
   gas phase: gas
   reactants:
@@ -882,6 +905,7 @@
     - species name: OH
 - type: ARRHENIUS
   name: r31
+  __rxn: 'OH + CH3CCl3 -> 3 Cl'
   A: 1.8e-12
   C: -1550
   gas phase: gas
@@ -893,6 +917,7 @@
       coefficient: 3
 - type: ARRHENIUS
   name: r32
+  __rxn: 'CH4 + O1D -> CH3 + OH'
   A: 1.35e-10
   gas phase: gas
   reactants:
@@ -903,6 +928,7 @@
     - species name: OH
 - type: ARRHENIUS
   name: r33
+  __rxn: 'HO2 + ClO -> HOCl + O2'
   A: 4.8e-13
   C: 700
   gas phase: gas
@@ -913,6 +939,7 @@
     - species name: HOCl
     - species name: O2
 - type: TROE
+  __rxn: 'NO2 + O + M -> NO3 + M'
   k0_A: 9e-32
   k0_B: -2
   kinf_A: 2.2e-11
@@ -925,6 +952,7 @@
   products:
     - species name: NO3
 - type: TROE
+  __rxn: 'NO2 + NO3 + M -> N2O5 + M'
   k0_A: 2e-30
   k0_B: -4.4
   kinf_A: 1.4e-12
@@ -937,6 +965,7 @@
   products:
     - species name: N2O5
 - type: TROE
+  __rxn: 'N2O5 + M -> NO2 + NO3 + M'
   k0_A: 5.4e-3
   k0_B: -4.4
   k0_C: -11000
@@ -952,6 +981,7 @@
     - species name: NO3
 - type: ARRHENIUS
   name: r39
+  __rxn: 'N + NO2 -> N2O + O'
   A: 5.8e-12
   C: 220
   gas phase: gas
@@ -963,6 +993,7 @@
     - species name: O
 - type: ARRHENIUS
   name: r40
+  __rxn: 'N + O2 -> NO + O'
   A: 1.5e-11
   C: -3600
   gas phase: gas
@@ -974,6 +1005,7 @@
     - species name: O
 - type: ARRHENIUS
   name: r41
+  __rxn: 'N + NO -> N2 + O'
   __am4: uo_o2 (4)
   A: 2.1e-11
   C: 100
@@ -986,6 +1018,7 @@
     - species name: O
 - type: ARRHENIUS
   name: r42
+  __rxn: 'HOCl + O -> ClO + OH'
   A: 1.7e-13
   gas phase: gas
   reactants:
@@ -996,6 +1029,7 @@
     - species name: ClO
 - type: ARRHENIUS
   name: r44
+  __rxn: 'Cl + O3 -> ClO + O2'
   A: 2.3e-11
   C: -200
   gas phase: gas
@@ -1007,6 +1041,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r45
+  __rxn: 'ClO + O -> Cl + O2'
   A: 3e-11
   C: 70
   gas phase: gas
@@ -1018,6 +1053,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r46
+  __rxn: 'NO + ClO -> Cl + NO2'
   A: 6.4e-12
   C: 290
   gas phase: gas
@@ -1029,6 +1065,7 @@
     - species name: NO2
 - type: ARRHENIUS
   name: r47
+  __rxn: 'CH4 + Cl -> HCl + CH3'
   A: 9.6e-12
   C: -1360
   gas phase: gas
@@ -1051,6 +1088,7 @@
     - species name: HCl
 - type: ARRHENIUS
   name: r49
+  __rxn: 'Cl + HO2 -> HCl + O2'
   A: 1.8e-11
   C: 170
   gas phase: gas
@@ -1062,6 +1100,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r50
+  __rxn: 'Cl + H2O2 -> HCl + HO2'
   A: 1.1e-11
   C: -980
   gas phase: gas
@@ -1073,6 +1112,7 @@
     - species name: HO2
 - type: ARRHENIUS
   name: r51
+  __rxn: 'ClONO2 + Cl -> Cl2 + NO3'
   A: 6.5e-12
   C: 135
   gas phase: gas
@@ -1095,6 +1135,7 @@
     - species name: H2O
 - type: ARRHENIUS
   name: r53
+  __rxn: 'HCl + OH -> Cl + H2O'
   A: 2.6e-12
   C: -350
   gas phase: gas
@@ -1106,6 +1147,7 @@
     - species name: H2O
 - type: ARRHENIUS
   name: r54
+  __rxn: 'HCl + O -> OH + Cl'
   A: 1e-11
   C: -3300
   gas phase: gas
@@ -1117,6 +1159,7 @@
     - species name: OH
 - type: ARRHENIUS
   name: r55
+  __rxn: 'Cl + O2 + M -> ClO2 + M'
   A: 2.7e-33
   B: -1.5
   gas phase: gas
@@ -1142,6 +1185,7 @@
     - species name: O2
     - species name: M
 - type: TROE
+  __rxn: 'HO2 + NO2 + M -> HNO4 + M'
   k0_A: 1.8e-31
   k0_B: -3.2
   kinf_A: 4.7e-12
@@ -1164,6 +1208,7 @@
       coefficient: 2
 - type: ARRHENIUS
   name: r59
+  __rxn: 'Cl + ClO2 + Cl2 + O2'
   A: 2.3e-10
   gas phase: gas
   reactants:
@@ -1198,6 +1243,7 @@
     - species name: ClO
       coefficient: 2
 - type: TROE
+  __rxn: 'HNO4 + M -> NO2 + HO2 + M'
   k0_A: 3.78e-4
   k0_B: -3.3
   k0_C: -10900
@@ -1212,6 +1258,7 @@
     - species name: NO2
 - type: ARRHENIUS
   name: r63
+  __rxn: 'BrCl + O -> BrO + Cl'
   A: 2.2e-11
   gas phase: gas
   reactants:
@@ -1221,6 +1268,7 @@
     - species name: BrO
     - species name: Cl
 - type: TROE
+  __rxn: '2 OH + M -> H2O2 + M'
   k0_A: 6.2e-31
   k0_B: -1
   kinf_A: 2.6e-11
@@ -1234,6 +1282,7 @@
     - species name: H2O2
 - type: ARRHENIUS
   name: r65
+  __rxn: 'O + H2O2 -> OH + HO2'
   A: 1.4e-12
   C: -2000
   gas phase: gas
@@ -1242,7 +1291,7 @@
     - species name: O
   products:
     - species name: OH
-    - species name: H2O2
+    - species name: HO2
 - type: ARRHENIUS
   name: r66
   __rxn: 'CH4 + OH -> CH3 + H2O'
@@ -1256,6 +1305,7 @@
     - species name: CH3
     - species name: H2O
 - type: TROE
+  __rxn: 'NO2 + ClO + M -> ClONO2 + M'
   k0_A: 1.8e-31
   k0_B: -3.4
   kinf_A: 1.5e-11
@@ -1269,6 +1319,7 @@
     - species name: ClONO2
 - type: ARRHENIUS
   name: r69
+  __rxn: 'ClONO2 + O -> ClO + NO3'
   A: 2.9e-12
   C: -800
   gas phase: gas
@@ -1280,6 +1331,7 @@
     - species name: NO3
 - type: ARRHENIUS
   name: r70
+  __rxn: 'HNO4 + OH -> NO2 + O2 + H2O'
   A: 1.3e-12
   C: 380
   gas phase: gas
@@ -1292,6 +1344,7 @@
     - species name: H2O
 - type: ARRHENIUS
   name: r71
+  __rxn: 'HCl + O1D -> Cl + OH'
   A: 1.5e-10
   gas phase: gas
   reactants:
@@ -1302,6 +1355,7 @@
     - species name: OH
 - type: ARRHENIUS
   name: r72
+  __rxn: 'H2 + OH -> H2O + H'
   A: 5.5e-12
   C: -2000
   gas phase: gas
@@ -1332,6 +1386,7 @@
     - species name: Cl
       coefficient: 3
 - type: TROE
+  __rxn: 'O2 + CH3 + M -> CH3O2 + MS'
   k0_A: 4.5e-31
   k0_B: -3
   kinf_A: 1.8e-12
@@ -1345,6 +1400,7 @@
     - species name: CH3O2
 - type: ARRHENIUS
   name: r78
+  __rxn: 'CH3O2 + HO2 -> CH3OOH + O2'
   A: 3.8e-13
   C: 800
   gas phase: gas
@@ -1356,6 +1412,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r79
+  __rxn: 'CH3O2 + NO -> CH3O + NO2'
   A: 3e-12
   C: 280
   gas phase: gas
@@ -1366,23 +1423,7 @@
     - species name: CH3O
     - species name: NO2
 - type: ARRHENIUS
-  name: r81
-  A: 6e-13
-  C: 230
-  gas phase: gas
-  reactants:
-    - species name: ClO
-    - species name: OH
-  products:
-    - species name: Cl
-      coefficient: 0.95
-    - species name: HO2
-      coefficient: 0.95
-    - species name: HCl
-      coefficient: 0.05
-    - species name: O2
-      coefficient: 0.05
-- type: ARRHENIUS
+  __rxn: 'CH3O + O2 -> CH2O + HO2'
   name: r82
   A: 3.9e-14
   C: -900
@@ -1395,6 +1436,7 @@
     - species name: HO2
 - type: ARRHENIUS
   name: r83
+  __rxn: 'CH2O + OH -> CHO + H2O'
   A: 1e-11
   gas phase: gas
   reactants:
@@ -1405,6 +1447,7 @@
     - species name: H2O
 - type: ARRHENIUS
   name: r84
+  __rxn: 'CHO + O2 -> CO + HO2'
   A: 3.5e-12
   C: 140
   gas phase: gas
@@ -1427,6 +1470,7 @@
   products:
     - species name: H
 - type: ARRHENIUS
+  __rxn: 'CH3Cl + OH -> Cl + products'
   name: r86
   A: 4e-12
   C: -1400
@@ -1455,6 +1499,7 @@
       coefficient: 0.3
 - type: ARRHENIUS
   name: r88
+  __rxn: 'O + HBr -> Br + OH'
   A: 5.8e-12
   C: -1500
   gas phase: gas
@@ -1466,6 +1511,7 @@
     - species name: Br
 - type: ARRHENIUS
   name: r89
+  __rxn: 'HOBr + O -> BrO + OH'
   A: 1.2e-10
   C: -430
   gas phase: gas
@@ -1488,6 +1534,7 @@
     - species name: H2O
 - type: ARRHENIUS
   name: r91
+  __rxn: '2 ClO -> Cl + OClO'
   A: 3.5e-13
   C: -1370
   gas phase: gas
@@ -1510,6 +1557,7 @@
     - species name: ClO2
 - type: ARRHENIUS
   name: r93
+  __rxn: '2 ClO -> Cl2 + O2'
   A: 1e-12
   C: -1590
   gas phase: gas
@@ -1521,6 +1569,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r94
+  __rxn: 'Br + O3 -> BrO + O2'
   A: 1.7e-11
   C: -800
   gas phase: gas
@@ -1532,6 +1581,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r95
+  __rxn: 'Br + HO2 -> HBr + O2'
   A: 1.5e-11
   C: -600
   gas phase: gas
@@ -1543,6 +1593,7 @@
     - species name: O2
 - type: ARRHENIUS
   name: r96
+  __rxn: 'Br + CH2O -> HBr + CHO'
   A: 1.7e-11
   C: -800
   gas phase: gas
@@ -1554,6 +1605,7 @@
     - species name: CHO
 - type: ARRHENIUS
   name: r97
+  
   A: 1.9e-11
   C: 230
   gas phase: gas

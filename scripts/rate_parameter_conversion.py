@@ -36,3 +36,7 @@ convert_rate_parameters(lit_units_config, micm_units_config)
 lit_units_config = '/home/mbruckner/catchem/CATChem_mechanisms/mech/AM4.1/reactions.yaml'
 micm_units_config = '/home/mbruckner/catchem/CATChem_mechanisms/mech/AM4.1/reactions_si.yaml'
 convert_rate_parameters(lit_units_config, micm_units_config)
+
+lit_units_config = '/home/mbruckner/catchem/CATChem_mechanisms/mech/RAQMS/reactions.yaml'
+micm_units_config = '/home/mbruckner/catchem/CATChem_mechanisms/mech/RAQMS/reactions_si.yaml'
+convert_rate_parameters(lit_units_config, micm_units_config)

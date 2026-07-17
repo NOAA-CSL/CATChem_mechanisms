@@ -5,7 +5,7 @@ species:
     - species.yaml
 reactions:
   files:
-    - reactions.yaml
+    - reactions_si.yaml
     - peroxyrates.yaml
 phases:
   files:
