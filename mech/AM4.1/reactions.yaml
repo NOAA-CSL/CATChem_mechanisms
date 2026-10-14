@@ -53,7 +53,7 @@
       - species name: N2O5
     products:
       - species name: NO2
-      - species name: NO3 
+      - species name: NO3
   - type: PHOTOLYSIS
     name: jhno3
     gas phase: gas
@@ -430,8 +430,8 @@
       - species name: O
   - type: ARRHENIUS
     name: uo_o2 (4)
-    A: 2.1e-11
-    C: 100
+    A: 1.5e-11
+    C: -3600
     gas phase: gas
     reactants:
       - species name: N

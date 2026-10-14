@@ -55,6 +55,7 @@
   - name: CH3CHO
     __is_gas: true  
   - name: POOH
+    molecular weight [kg mol-1]: 0.0920904
     __is_gas: true  
   - name: CH3CO3
     __is_gas: true  
@@ -123,6 +124,7 @@
   - name: NH4NO3
     __is_gas: true  
   - name: NH4
+    molecular weight [kg mol-1]: 0.0
     __is_gas: true  
   - name: HCl
     __is_gas: true  
